@@ -51,7 +51,7 @@ PdmlSampleProtocol::~PdmlSampleProtocol()
 {
 }
 
-PdmlSampleProtocol* PdmlSampleProtocol::createInstance()
+PdmlProtocol* PdmlSampleProtocol::createInstance()
 {
     return new PdmlSampleProtocol();
 }

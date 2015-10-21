@@ -27,7 +27,7 @@ class PdmlSampleProtocol : public PdmlProtocol
 public:
     virtual ~PdmlSampleProtocol();
 
-    static PdmlSampleProtocol* createInstance();
+    static PdmlProtocol* createInstance();
 
     virtual void preProtocolHandler(QString name, 
             const QXmlStreamAttributes &attributes, int expectedPos, 
